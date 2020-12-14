@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.API", "WSS.MalditoHard.API\WSS.MalditoHard.API.csproj", "{590060C0-2950-4EBC-9911-04C3DB9D6403}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.Domain", "WSS.MalditoHard.Domain\WSS.MalditoHard.Domain.csproj", "{23452859-3836-477F-9429-33B701B6A4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.Application", "WSS.MalditoHard.Application\WSS.MalditoHard.Application.csproj", "{53637C9B-16C1-4E38-A30C-A1B06FD0EB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.Bootstrap", "WSS.MalditoHard.Bootstrap\WSS.MalditoHard.Bootstrap.csproj", "{81B32A7F-2C42-457A-8681-7E01AACE0503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.Persistance", "WSS.MalditoHard.Persistance\WSS.MalditoHard.Persistance.csproj", "{60676271-D261-4503-911E-B2389D6673F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSS.MalditoHard.Tests", "WSS.MalditoHard.Tests\WSS.MalditoHard.Tests.csproj", "{1B720E7E-9E93-4EE5-BB4D-04E6AE9C52FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{590060C0-2950-4EBC-9911-04C3DB9D6403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{590060C0-2950-4EBC-9911-04C3DB9D6403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{590060C0-2950-4EBC-9911-04C3DB9D6403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23452859-3836-477F-9429-33B701B6A4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23452859-3836-477F-9429-33B701B6A4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23452859-3836-477F-9429-33B701B6A4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23452859-3836-477F-9429-33B701B6A4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53637C9B-16C1-4E38-A30C-A1B06FD0EB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53637C9B-16C1-4E38-A30C-A1B06FD0EB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53637C9B-16C1-4E38-A30C-A1B06FD0EB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53637C9B-16C1-4E38-A30C-A1B06FD0EB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B32A7F-2C42-457A-8681-7E01AACE0503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B32A7F-2C42-457A-8681-7E01AACE0503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B32A7F-2C42-457A-8681-7E01AACE0503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B32A7F-2C42-457A-8681-7E01AACE0503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60676271-D261-4503-911E-B2389D6673F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60676271-D261-4503-911E-B2389D6673F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60676271-D261-4503-911E-B2389D6673F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60676271-D261-4503-911E-B2389D6673F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B720E7E-9E93-4EE5-BB4D-04E6AE9C52FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B720E7E-9E93-4EE5-BB4D-04E6AE9C52FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B720E7E-9E93-4EE5-BB4D-04E6AE9C52FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B720E7E-9E93-4EE5-BB4D-04E6AE9C52FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
