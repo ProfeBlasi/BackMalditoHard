@@ -2,27 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
-namespace WSS.MalditoHard.API.Controllers
+namespace WSS.MalditoHard.API.Controllers.V1
 {
     [ApiController]
     [ApiVersion("1")]
     [Route("/v{v:apiVersion}/[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class DefaultController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
-        {
+{
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
-
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
